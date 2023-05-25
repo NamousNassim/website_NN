@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and font styles for the body */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the contact section */
+  #contact {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the experience section */
+  #experience {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Style the skills section */
+  #skills {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the projects section */
+  #projects {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Style headings */
+  h1, h2, h3, h4 {
+    margin-bottom: 10px;
+  }
+  
+  /* Style links */
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
