@@ -1,0 +1,14 @@
+.article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .article .summary {
+    cursor: pointer;
+  }
+
+  .article .content {
+    display: none;
+    margin-top: 10px;
+  }

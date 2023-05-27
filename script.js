@@ -1,12 +1,8 @@
-function showPopup(text) {
-    var popup = document.getElementById('popup');
-    var popupText = document.getElementById('popupText');
-    popupText.textContent = text;
-    popup.style.display = 'block';
+function toggleContent(elementId) {
+    var content = document.getElementById(elementId);
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
   }
-  
-  function closePopup() {
-    var popup = document.getElementById('popup');
-    popup.style.display = 'none';
-  }
-  

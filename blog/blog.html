@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Page</title>
+ <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../script.js"></script>
+</head> 
+<body>
+
+  <nav>
+    <ul> 
+        <li> <a href="../index.html">NassimNamous</a>
+        </li>
+        <li> <a href="../Resume.html">Start Here</a> </li>
+        <li> <a href="../blog/blog.html" >blog</a> </li>
+     </ul>
+    </nav>
+
+  <div class="article">
+    <h2 class="summary" onclick="toggleContent('article1')">random_meme - click me to see more</h2>
+    <div id="article1" class="content">
+        <p><strong>About the Project.</strong></p>
+
+        <p><strong>Usage:</strong></p>
+        
+        <ol>
+          <li>Ensure Flask and the required dependencies are installed.</li>
+          <li>Run the Python script.</li>
+          <li>Access the application through the defined host and port.</li>
+        </ol>
+        
+        <p><strong>Flask Web Application for Random Programmer Humor Post</strong></p>
+        
+        <p>This Python code demonstrates a Flask web application that fetches a random post from the "ProgrammerHumor" subreddit and displays the post's title and URL on a webpage.</p>
+        
+        <p><strong>Flask:</strong> A Python web framework for building web applications.</p>
+        
+        <ul>
+          <li><strong>Flask:</strong> Used to create the Flask application.</li>
+          <li><strong>render_template:</strong> Used to render an HTML template.</li>
+          <li><strong>requests:</strong> Used to send HTTP requests and retrieve responses.</li>
+          <li><strong>json:</strong> Used to parse JSON data.</li>
+          <li><strong>random:</strong> Used to generate random values.</li>
+        </ul>
+        
+        <p><strong>Fetching data from Reddit:</strong></p>
+        
+        <p><code>url = "https://www.reddit.com/r/ProgrammerHumor/random.json"</code>: Specifies the URL to fetch random posts from the "ProgrammerHumor" subreddit.</p>
+        
+        <p><strong>Rendering the template:</strong></p>
+        
+        <p>Returns the rendered HTML template "index.html" with the post's title and URL.</p>
+        
+        <p><strong>HTML Template:</strong></p>
+        
+        <p>It displays the post's title and an image sourced from the URL.</p>
+        
+        <p><strong>Usage:</strong></p>
+        
+        <ol>
+          <li>Ensure Flask and the required dependencies are installed.</li>
+          <li>Run the Python script.</li>
+          <li>Access the application through the defined host and port.</li>
+        </ol>
+           
+    </div>
+  </div>
+
+
+</body>
+</html>
