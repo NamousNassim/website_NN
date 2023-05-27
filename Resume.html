@@ -5,6 +5,23 @@
   <link rel="stylesheet" type="text/css" href="Resume.css">
 </head>
 <body>
+  
+  <nav> 
+            <ul> 
+               <li> <a href="index.html">NassimNamous</a>
+               </li>
+               <li> <a href="Resume.html" onclick="showPopup('Nassim is still working on the start here section  '); return false;">Start Here</a> </li>
+               <li> <a href="#" onclick="showPopup('Nassim is still working on the blog section  '); return false;" >blog</a> </li>
+            </ul>
+
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                  <span class="close-button" onclick="closePopup()">&times;</span>
+                  <p id="popupText"></p>
+                </div>
+              </div>
+        </nav> 
+
   <header>
     <h1>Namous</h1>
     <h2>Software Engineer Intern</h2>
